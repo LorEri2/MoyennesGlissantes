@@ -1,15 +1,56 @@
-Date,Equipe,Baisse_Moyenne,Buts_Dernier_Match,Cote,Resultat
-2026-02-14,Werder Bremen,8.46,1,1.33,En attente
-2026-02-14,Monchengladbach,10.16,2,1.76,En attente
-2026-02-14,Leverkusen,9.36,2,1.85,En attente
-2026-02-13,PSG,6.06,5,1.41,En attente
-2026-02-14,Lille,6.37,0,1.9,En attente
-2026-02-15,Auxerre,9.46,0,2.22,En attente
-2026-02-15,Angers,158.0,1,2.3,En attente
-2026-02-11,Wolves,6.95,4,1.9,Perdu
-2026-02-22,Tottenham,5.17,3,1.78,En attente
-2026-02-11,Man City,5.48,3,1.51,Gagné
-2026-02-23,Everton,6.03,3,1.73,En attente
-2026-02-11,Brigthon,6.5,1,1.75,Perdu
-2026-02-12,Brentford,6.5,5,1.87,En attente
-2026-02-11,Aston Villa,12.09,2,1.75,Perdu
+Date,Equipe,Baisse_Moyenne,Buts_Dernier_Match,Cote,Resultat,Ligue
+2026-02-16,Bastia,0.0,0,2.6,Perdu,Autre
+2026-02-16,Kasimpasa,0.0,3,2.12,Gagné,Autre
+2026-02-22,Cremonese,6.19,0,2.02,En attente,Serie A
+2026-02-22,AS Roma,17.96,4,2.02,En attente,Serie A
+2026-02-22,Parma,7.62,3,1.89,En attente,Serie A
+2026-02-22,Tottenham,5.17,3,1.87,En attente,Premier League
+2026-02-22,Werder Bremen,8.77,3,2.42,En attente,Bundesliga
+2026-02-22,Lille,6.07,2,2.06,En attente,Ligue 1
+2026-02-22,Angers,15.45,2,2.06,En attente,Ligue 1
+2026-02-22,Lorient,6.36,2,1.89,En attente,Ligue 1
+2026-02-22,Borussia Mönchengladbach,10.59,3,1.92,En attente,Bundesliga
+2026-02-22,Atalanta,14.24,2,2.14,En attente,Serie A
+2026-02-22,Auxerre,6.67,4,1.94,En attente,Ligue 1
+2026-02-21,PSG,6.27,4,1.3,En attente,Ligue 1
+2026-02-21, Manchester City,5.59,3,1.46,En attente,Premier League
+2026-02-21,Atletico Madrid,7.53,3,1.9,En attente,Serie A
+2026-02-21,Lazio,20.85,2,2.48,En attente,Serie A
+2026-02-21,Lecce,5.51,2,2.04,En attente,Serie A
+2026-02-21,Brentford,6.18,2,1.82,En attente,Premier League
+2026-02-21,Brighton,9.51,1,1.82,En attente,Premier League
+2026-02-21,Aston Villa,15.1,1,1.93,En attente,Premier League
+2026-02-21,Bayer Leverkusen,6.24,4,1.01,En attente,Bundesliga
+2026-02-18,Wolves,10.0,0,1.76,En attente,Premier League
+2026-02-18,AC Milan,5.0,3,1.01,En attente,Serie A
+2026-02-20,Sassuolo,11.87,3,2.36,En attente,Serie A
+2026-02-15,Valence,5.0,2,2.1,Perdu,La Liga
+2026-02-16,Girona,10.0,2,1.37,Gagné,La Liga
+2026-02-14,Espanyol,6.0,5,2.4,Gagné,La Liga
+2026-02-15,Athletico Madrid,7.0,1,2.08,Gagné,La Liga
+2026-02-14,Alaves,6.0,2,2.5,Perdu,La Liga
+2026-02-15,Sassuolo,11.59,5,2.27,Gagné,Serie A
+2026-02-15,Parme,10.0,1,2.52,Gagné,Serie A
+2026-02-15,Napoli,7.0,5,2.52,Gagné,Serie A
+2026-02-16,Lecce,5.51,3,2.6,Perdu,Serie A
+2026-02-14,Lazio,21.14,4,2.1,Perdu,Serie A
+2026-02-14,Inter Milan,7.39,5,1.95,Gagné,Serie A
+2026-02-15,Cremonese,0.0,3,2.57,Perdu,Serie A
+2026-02-14,Como,0.0,0,1.82,Gagné,Serie A
+2026-02-14,Atalanta,14.55,3,2.1,Perdu,Serie A
+2026-02-15,AS Roma,0.0,2,2.52,Gagné,Serie A
+2026-02-13,AC Milan,5.43,3,1.92,Gagné,Serie A
+2026-02-14,Werder Bremen,8.46,1,1.33,Gagné,Bundesliga
+2026-02-14,Monchengladbach,10.16,2,1.76,Gagné,Bundesliga
+2026-02-14,Leverkusen,9.36,2,1.85,Gagné,Bundesliga
+2026-02-13,PSG,6.06,5,1.41,Gagné,Ligue 1
+2026-02-14,Lille,6.37,0,1.9,Perdu,Ligue 1
+2026-02-15,Auxerre,9.46,0,2.22,Gagné,Ligue 1
+2026-02-15,Angers,15.8,1,2.3,Perdu,Ligue 1
+2026-02-11,Wolves,6.95,4,1.9,Perdu,Premier League
+2026-02-22,Tottenham,5.17,3,1.78,En attente,Premier League
+2026-02-11,Man City,5.48,3,1.51,Gagné,Premier League
+2026-02-23,Everton,6.03,3,1.73,En attente,Premier League
+2026-02-11,Brigthon,6.5,1,1.75,Perdu,Premier League
+2026-02-12,Brentford,6.5,5,1.87,Perdu,Premier League
+2026-02-11,Aston Villa,12.09,2,1.75,Perdu,Premier League
