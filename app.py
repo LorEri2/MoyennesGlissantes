@@ -188,7 +188,7 @@ def page_market_style_logic(title, file_path, show_league=False):
         unique_ligues = sorted(list(set(df["Ligue"].unique()) | set(LIGUES_DISPO)))
         filter_ligue_choice = c_filter_ligue.multiselect("🏆 Filtrer par Ligue :", unique_ligues)
 
-    d_start = c_start.date_input("Du", value=datetime.date(2025, 1, 1))
+    d_start = c_start.date_input("Du", value=datetime.date(2023, 1, 1))
     d_end = c_end.date_input("Au", value=datetime.date.today() + datetime.timedelta(days=365))
 
     if not df.empty:
@@ -287,7 +287,7 @@ def generic_page(title, file_path, extra_col, placeholder):
                 st.success("Ajouté !"); st.rerun()
     st.divider()
     c_start, c_end = st.columns(2)
-    d_start = c_start.date_input("Du", value=datetime.date(2025, 1, 1))
+    d_start = c_start.date_input("Du", value=datetime.date(2023, 1, 1))
     d_end = c_end.date_input("Au", value=datetime.date.today() + datetime.timedelta(days=365))
     
     df = clean_and_read_csv(file_path)
@@ -338,7 +338,7 @@ def page_simple(title, file_path):
                 st.success("Ajouté !"); st.rerun()
     st.divider()
     c_start, c_end = st.columns(2)
-    d_start = c_start.date_input("Du", value=datetime.date(2025, 1, 1))
+    d_start = c_start.date_input("Du", value=datetime.date(2023, 1, 1))
     d_end = c_end.date_input("Au", value=datetime.date.today() + datetime.timedelta(days=365))
     
     df = clean_and_read_csv(file_path)
@@ -369,12 +369,11 @@ def page_simple(title, file_path):
     else: st.info(f"Ajoute ton premier pari {title} !")
 
 # ==============================================================================
-# 4. PAGE PARIS PAR DATE (NOUVEAU)
+# 4. PAGE PARIS PAR DATE
 # ==============================================================================
 def page_matchs_par_date():
     st.header("📅 Paris par Date")
     
-    # Sélecteur de date (par défaut aujourd'hui)
     selected_date = st.date_input("Sélectionnez une date pour voir tous les paris associés :", value=datetime.date.today())
     
     st.markdown(f"#### Vos paris pour le : **{selected_date.strftime('%d/%m/%Y')}**")
@@ -395,9 +394,7 @@ def page_matchs_par_date():
     for name, filepath in strategies.items():
         df = clean_and_read_csv(filepath)
         if not df.empty:
-            # On filtre pour ne garder que la date sélectionnée
             df_selected = df[df["Date"].dt.date == selected_date].copy()
-            
             if not df_selected.empty:
                 df_selected.insert(0, "Stratégie", name)
                 all_selected_bets.append(df_selected)
@@ -414,18 +411,13 @@ def page_matchs_par_date():
         
         cols_to_show = [c for c in cols_order if c in final_df.columns]
         
-        st.dataframe(
-            final_df[cols_to_show], 
-            use_container_width=True, 
-            hide_index=True
-        )
-        
+        st.dataframe(final_df[cols_to_show], use_container_width=True, hide_index=True)
         st.success(f"Vous avez **{len(final_df)} paris** enregistrés pour le {selected_date.strftime('%d/%m/%Y')}.")
     else:
         st.info(f"Aucun pari n'est enregistré pour le {selected_date.strftime('%d/%m/%Y')}.")
 
 # ==============================================================================
-# RECAPITULATIF GLOBAL
+# RECAPITULATIF GLOBAL (MODIFIÉ)
 # ==============================================================================
 def page_recap():
     st.header("🏆 Récapitulatif Mensuel Global")
@@ -449,14 +441,13 @@ def page_recap():
 
     st.divider()
 
+    # NOTE : On a retiré "1N & Plus" et "Prono Vert" de cette liste
     strategies = {
         "📉 Market Moves": FILE_MARKET, 
         "⚽ +2.5 Buts": FILE_OVER25, 
         "📊 Stats Max": FILE_STATS, 
-        "🛡️ 1N & Plus": FILE_SECURE, 
         "🧠 CIA 2echec": FILE_CIA_2E,
-        "🏆 Prono en Or": FILE_GOLD,
-        "🟢 Prono Vert": FILE_GREEN 
+        "🏆 Prono en Or": FILE_GOLD
     }
     
     all_data = []
@@ -465,12 +456,11 @@ def page_recap():
         df = clean_and_read_csv(filepath)
         if not df.empty:
             
-            # --- APPLICATION DES FILTRES DE SIMULATION ---
-            
             if name == "📉 Market Moves":
                 if "Baisse_Moyenne" in df.columns:
                     df["Baisse_Moyenne"] = pd.to_numeric(df["Baisse_Moyenne"], errors='coerce').fillna(0)
                     df = df[df["Baisse_Moyenne"] >= recap_drop_min]
+                
                 if recap_buts_choice:
                     if "Buts_Dernier_Match" not in df.columns: df["Buts_Dernier_Match"] = 0
                     df["Buts_Numeric"] = pd.to_numeric(df["Buts_Dernier_Match"], errors='coerce')
@@ -488,6 +478,7 @@ def page_recap():
                 if "Baisse_Moyenne" in df.columns:
                     df["Baisse_Moyenne"] = pd.to_numeric(df["Baisse_Moyenne"], errors='coerce').fillna(0)
                     df = df[df["Baisse_Moyenne"] >= recap_drop_min_over]
+                
                 if recap_buts_choice_over:
                     if "Buts_Dernier_Match" not in df.columns: df["Buts_Dernier_Match"] = 0
                     df["Buts_Numeric"] = pd.to_numeric(df["Buts_Dernier_Match"], errors='coerce')
