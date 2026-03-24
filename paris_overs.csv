@@ -1,15 +1,112 @@
 Date,Equipe,Type_Over,Cote,Resultat
-2026-03-08,Santa Clara,+1.5,1.55,En attente
-2026-03-08, AC Milan,+2.5,2.14,En attente
-2026-03-08,AS Roma,+1.5,1.57,En attente
-2026-03-08,Werder Bremen,+1.5,1.4,En attente
-2026-03-08,Lille,+2.5,1.94,En attente
-2026-03-08,Parma,+1.5,1.32,En attente
-2026-03-08,Kasımpaşa,+2.5,2.2,En attente
-2026-03-08,Hertha,+1.5,1.28,En attente
-2026-03-08,Lecce,+1.5,1.5,En attente
-2026-03-08,Lyon,+1.5,1.31,En attente
-2026-03-08,Club Brugge,+1.5,1.18,En attente
+2026-03-21,Tondela,+1.5,1.38,En attente
+2026-03-21,PSG,+1.5,1.15,En attente
+2026-03-21,Brentford,+1.5,1.3,En attente
+2026-03-21,Sligo Rovers,+1.5,1.36,En attente
+2026-03-21,Sassuolo,+1.5,1.23,En attente
+2026-03-21, FC Sion,+1.5,1.26,En attente
+2026-03-21,Santa Clara,+1.5,1.61,En attente
+2026-03-21,Auxerre,+1.5,1.45,En attente
+2026-03-21,Rangers,+1.5,1.2,En attente
+2026-03-21,Everton,+1.5,1.29,En attente
+2026-03-21,AC Milan,+1.5,1.3,En attente
+2026-03-21,Famalicao,+1.5,1.3,En attente
+2026-03-21,Twente,+2.5,1.55,En attente
+2026-03-21,Norwich,+1.5,1.37,En attente
+2026-03-21,Portsmouth,+1.5,1.47,En attente
+2026-03-21,ST Mirren,+1.5,1.34,En attente
+2026-03-21,Motherwell,+1.5,1.31,En attente
+2026-03-21,Dundee,+1.5,1.27,En attente
+2026-03-21,Bayer Leverkusen,+2.5,1.01,En attente
+2026-03-21,Borussia Mönchengladbach,+1.5,1.28,En attente
+2026-03-21,Werder Bremen,+1.5,1.26,En attente
+2026-03-21,Parma,+1.5,1.41,En attente
+2026-03-21,Brighton,+2.5,1.8,En attente
+2026-03-21,Blackburn,+1.5,1.32,En attente
+2026-03-21,Elversberg,+2.5,1.67,En attente
+2026-03-21,Paderborn ,+2.5,1.69,En attente
+2026-03-21,Macarthur,+2.5,1.68,En attente
+2026-03-21,Schalke,+1.5,1.28,En attente
+2026-03-21,Toulouse,+1.5,1.4,En attente
+2026-03-21,Albacete,+1.5,1.26,En attente
+2026-03-20,,+1.5,1.01,En attente
+2026-03-20,Bournemouth,+1.5,1.19,En attente
+2026-03-20,Bohemians,+1.5,1.34,En attente
+2026-03-20,Drogheda United,+1.5,1.35,En attente
+2026-03-20, St Patrick's ,+1.5,1.33,En attente
+2026-03-20,Angers,+1.5,1.19,En attente
+2026-03-20,Cagliari,+1.5,1.54,En attente
+2026-03-19,Kasimpasa,+1.5,1.22,Gagné
+2026-03-18,Norwich,+2.5,1.78,Perdu
+2026-03-18,Alanyaspor,+1.5,1.46,Gagné
+2026-03-17,Wrexham,+1.5,1.34,Gagné
+2026-03-17,St Gallen,+1.5,1.29,Gagné
+2026-03-17,Melbourne,+1.5,1.9,Perdu
+2026-03-16,Dundalk,+1.5,1.33,Perdu
+2026-03-16,St Patrick,+1.5,1.44,Perdu
+2026-03-16,Drogheda,+1.5,1.45,Perdu
+2026-03-16,Brentford,+1.5,1.26,Gagné
+2026-03-16,Cremonese,+1.5,1.39,Gagné
+2026-03-15,Lazio,+1.5,1.4,Perdu
+2026-03-15,Lille,+1.5,1.32,Gagné
+2026-03-15,Standard,+1.5,1.44,Gagné
+2026-03-15,Bohemians,+1.5,1.27,Gagné
+2026-03-15,Leeds,+1.5,1.4,Perdu
+2026-03-15,Sassuolo,+1.5,1.35,Perdu
+2026-03-15,Werder Bremen,+1.5,1.34,Gagné
+2026-03-15,Dundee,+1.5,1.34,Gagné
+2026-03-15,Aston Villa,+1.5,1.24,Gagné
+2026-03-15,Pisa,+1.5,1.57,Gagné
+2026-03-15,Kasimpasa,+1.5,1.33,Perdu
+2026-03-15,Sigam Olomouc,+1.5,1.33,Gagné
+2026-03-15,Rangers,+2.5,1.78,Perdu
+2026-03-15,Twente,+2.5,1.56,Perdu
+2026-03-15,Schalke,+1.5,1.26,Gagné
+2026-03-14,Ajax,+2.5,1.53,Gagné
+2026-03-14,Hertha ,+1.5,1.27,Gagné
+2026-03-14,Angers,+1.5,1.44,Gagné
+2026-03-14,Valencia,+1.5,1.45,Perdu
+2026-03-14,Everton,+1.5,1.36,Gagné
+2026-03-14,Union St. Gilloise,+1.5,1.28,Gagné
+2026-03-14,FC Sion,+1.5,1.24,Gagné
+2026-03-14,Famalicao,+1.5,1.36,Gagné
+2026-03-14,Brighton,+1.5,1.4,Perdu
+2026-03-14,Celtic,+1.5,1.22,Gagné
+2026-03-14,Bayer Leverkusen,+2.5,1.32,Perdu
+2026-03-14, Atalanta,+2.5,1.66,Perdu
+2026-03-14,Holstein Kiel,+1.5,1.26,Gagné
+2026-03-14,Paderborn,+2.5,1.76,Gagné
+2026-03-14,Monaco,+1.5,1.24,Gagné
+2026-03-14,Millwall,+1.5,1.42,Gagné
+2026-03-14,Aberdeen,+1.5,1.34,Gagné 
+2026-03-14,Norwich,+2.5,1.82,Perdu
+2026-03-14,Club Brugge KV,+1.5,1.16,Gagné
+2026-03-14,Göztepe,+1.5,1.47,Gagné
+2026-03-13,Sligo Rovers,+1.5,1.37,Gagné
+2026-03-13,Wrexham,+2.5,2.1,Perdu
+2026-03-13,Gent,+1.5,1.26,Gagné
+2026-03-13,Parma,+1.5,1.41,Gagné
+2026-03-13,Dundalk,+2.5,1.8,Gagné
+2026-03-13,Borussia Mönchengladbach,+1.5,1.44,Gagné
+2026-03-13,SV Elversberg,+1.5,1.21,Gagné
+2026-03-13,Brisbane Roar,+1.5,1.28,Gagné
+2026-03-13,St Patrick's Athl,+1.5,1.43,Gagné
+2026-03-11,Blackburn,+2.5,2.52,Perdu
+2026-03-11,Norwich,+2.5,1.93,Gagné
+2026-03-09,Tondela ,+1.5,1.5,Perdu
+2026-03-09,Lazio,+1.5,1.43,Gagné
+2026-03-09,Alanyaspor,+2.5,2.0,Perdu
+2026-03-08,Santa Clara,+1.5,1.55,Gagné
+2026-03-08, AC Milan,+2.5,2.14,Perdu
+2026-03-08,AS Roma,+1.5,1.57,Gagné
+2026-03-08,Werder Bremen,+1.5,1.4,Gagné
+2026-03-08,Lille,+2.5,1.94,Perdu
+2026-03-08,Parma,+1.5,1.32,Perdu
+2026-03-08,Kasımpaşa,+2.5,2.2,Perdu
+2026-03-08,Hertha,+1.5,1.28,Gagné
+2026-03-08,Lecce,+1.5,1.5,Gagné
+2026-03-08,Lyon,+1.5,1.31,Gagné
+2026-03-08,Club Brugge,+1.5,1.18,Gagné
 2026-03-07,Motherwell,+1.5,1.32,Gagné
 2026-03-07,Toulouse,+1.5,1.27,Perdu
 2026-03-07,FC Lugano,+1.5,1.22,Gagné

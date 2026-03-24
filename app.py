@@ -13,6 +13,7 @@ FILE_STATS = "stats_max.csv"
 FILE_SECURE = "home_draw.csv"
 FILE_GOLD = "prono_or.csv"
 FILE_CIA_2E = "cia_2echec.csv"
+FILE_MOY_GLIS_2E = "moy_glissante_2e.csv" # Nouveau fichier
 
 # ==============================================================================
 # FONCTIONS PARTAGÉES & OPTIMISÉES
@@ -24,7 +25,7 @@ def clean_and_read_csv(file_path):
         try:
             df = pd.read_csv(file_path)
             
-            # Nettoyage colonnes parasites
+            # Nettoyage colonnes parasites (on supprime aussi Date.1 si elle s'est créée par erreur)
             cols_to_drop = ["ID_Tech", "Original_Idx", "Unnamed: 0", "Date.1"]
             for bad_col in cols_to_drop:
                 if bad_col in df.columns: df = df.drop(columns=[bad_col])
@@ -100,7 +101,7 @@ def add_new_bet(file_path, new_data):
     st.cache_data.clear()
 
 # ==============================================================================
-# 1. PAGE OVERS (CORRIGÉE : Affichage des +1.5 / +2.5 et dates)
+# 1. PAGE OVERS
 # ==============================================================================
 def page_overs(title, file_path):
     st.header(title)
@@ -254,7 +255,7 @@ def generic_page(title, file_path, extra_col, placeholder):
 
 
 # ==============================================================================
-# 3. PAGE SIMPLE (CIA 2echec - CORRIGÉE POUR NE PLUS AVOIR DE DOUBLONS)
+# 3. PAGE SIMPLE (CIA 2echec & MoyGlissante)
 # ==============================================================================
 def page_simple(title, file_path):
     st.header(title)
@@ -318,6 +319,7 @@ def page_matchs_par_date():
         "📊 Stats Max": FILE_STATS, 
         "🛡️ 1N & Plus": FILE_SECURE, 
         "🧠 CIA 2echec": FILE_CIA_2E,
+        "📈 MoyGlissante 2Echecs": FILE_MOY_GLIS_2E,
         "🏆 Prono en Or": FILE_GOLD
     }
 
@@ -365,6 +367,7 @@ def page_recap():
         "⚽ Paris Overs": FILE_OVERS, 
         "📊 Stats Max": FILE_STATS, 
         "🧠 CIA 2echec": FILE_CIA_2E,
+        "📈 MoyGlissante 2Echecs": FILE_MOY_GLIS_2E,
         "🏆 Prono en Or": FILE_GOLD
     }
     
@@ -418,6 +421,7 @@ with st.sidebar:
         "📊 Stats Max", 
         "🛡️ 1N & Plus", 
         "🧠 CIA 2echec",
+        "📈 MoyGlissante 2Echecs",
         "🏆 Prono en Or", 
         "🏆 Récapitulatif Global"
     ])
@@ -433,6 +437,8 @@ elif page == "🛡️ 1N & Plus":
     generic_page("🛡️ 1N & Plus", FILE_SECURE, "Infos", "+1.5 buts...")
 elif page == "🧠 CIA 2echec":
     page_simple("🧠 CIA 2echec", FILE_CIA_2E)
+elif page == "📈 MoyGlissante 2Echecs":
+    page_simple("📈 MoyGlissante 2Echecs", FILE_MOY_GLIS_2E)
 elif page == "🏆 Prono en Or":
     generic_page("🏆 Prono en Or", FILE_GOLD, "Infos", "Analyse...")
 else:
