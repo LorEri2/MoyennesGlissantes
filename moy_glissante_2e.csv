@@ -1,17 +1,68 @@
 Date,Equipe,Cote,Resultat
-2026-04-11,Bayern München -3.5,1.7,En attente
-2026-04-11,Grasshoppers -3.5,1.48,En attente
-2026-04-11,Juve Stabia -3.5,1.36,En attente
-2026-04-11,Manta FC +2.5,2.02,En attente
-2026-04-11,Legia Warszawa +2.5,2.02,En attente
-2026-04-11,Deportivo Riestra +2.5,3.65,En attente
-2026-04-11,Kayserispor +2.5,1.69,En attente
-2026-04-11,FC Lugano +2.5,1.72,En attente
-2026-04-11,Blackburn +2.5,2.06,En attente
-2026-04-11,Farense +2.5,2.2,En attente
-2026-04-11,Bohemians 1905 +2.5,2.18,En attente
-2026-04-11,Baník Ostrava +2.5,1.95,En attente
-2026-04-11,Bastia +2.5,2.64,En attente
+2026-04-18,Colorado Rapids -3.5,1.91,En attente
+2026-04-18,Manchester United -3.5,1.68,En attente
+2026-04-18,Dinamo Zagreb -3.5,1.52,En attente
+2026-04-18,Perth Glory -3.5,1.75,En attente
+2026-04-18,Sporting Kansas City -3.5,1.32,Gagné
+2026-04-18,Universidad Catolica +2.5,1.72,En attente
+2026-04-18, Le Havre +2.5,2.52,En attente
+2026-04-18,Torreense +2.5,2.1,En attente
+2026-04-18,Lazio +2.5,2.3,En attente
+2026-04-18, Lorient +2.5,1.59,En attente
+2026-04-18,Bristol City +2.5,2.06,En attente
+2026-04-18,Watford +2.5,1.95,En attente
+2026-04-18,Rijeka +2.5,1.71,En attente
+2026-04-18,Borussia Dortmund +2.5,1.45,En attente
+2026-04-18,Dukla Praha +2.5,2.12,En attente
+2026-04-18,Sudtirol +2.5,2.24,En attente
+2026-04-18, Parma +2.5,2.46,En attente
+2026-04-18,Portsmouth +2.5,2.34,En attente
+2026-04-18,Sydney,1.49,En attente
+2026-04-18,Jegu +2.5,2.1,En attente
+2026-04-18, Kashima +2.5,1.75,Perdu
+2026-04-18,Emelec +2.5,1.8,Gagné
+2026-04-18,Everton de Vina +1.5,1.46,En attente
+2026-04-18,Bristol City +1.5,1.37,En attente
+2026-04-18,Pacos Ferreira +1.5,1.42,En attente
+2026-04-17,Lens -3.5,1.54,Perdu
+2026-04-17,Shelbourne -.3.5,1.25,Gagné
+2026-04-17,Koln -3.5,1.39,Gagné
+2026-04-17,Santander -3.5,1.66,Perdu
+2026-04-17,Drogheba +2.5,2.44,Gagné
+2026-04-17,Legia +2.5,2.18,Perdu
+2026-04-17,Gorica +2.5,3.35,Perdu
+2026-04-17,Feirense +1.5,1.45,Gagné
+2026-04-14,BlackBurn +2.5,1.98,Gagné
+2026-04-13,Leeds +2.5,1.7,Gagné
+2026-04-13,Man United -3.5,1.4,Gagné
+2026-04-13,Troyes -3.5,1.3,Gagné
+2026-04-13,Piast Gliwice -3.5,1.38,Gagné
+2026-04-13,Samsunspor -3.5,1.4,Gagné
+2026-04-13,Dinamo Zagreb -3.5,1.35,Perdu
+2026-04-13,Orlando City -3.5,1.3,Gagné
+2026-04-13,Defensa Y Justicia +2.5,2.25,Gagné
+2026-04-13,Lazio +2.5,1.9,Perdu
+2026-04-13,Emelec +2.5,1.98,Perdu
+2026-04-12,Racing Santander -3.5,1.68,Perdu
+2026-04-12,FC Andorra -3.5,1.35,Gagné
+2026-04-12,Nice -3.5,1.37,Gagné
+2026-04-12, Heerenveen -3.5,1.95,Gagné
+2026-04-12,Köln -3.5,1.48,Perdu
+2026-04-12,Chengdu Better City -3.5,1.61,Gagné
+2026-04-12,Sporting Kansas City -3.5,1.55,Perdu
+2026-04-11,Bayern München -3.5,1.7,Perdu
+2026-04-11,Grasshoppers -3.5,1.48,Gagné
+2026-04-11,Juve Stabia -3.5,1.36,Gagné
+2026-04-11,Manta FC +2.5,2.02,Perdu
+2026-04-11,Legia Warszawa +2.5,2.02,Perdu
+2026-04-11,Deportivo Riestra +2.5,3.65,Perdu
+2026-04-11,Kayserispor +2.5,1.69,Gagné
+2026-04-11,FC Lugano +2.5,1.72,Perdu
+2026-04-11,Blackburn +2.5,2.06,Gagné
+2026-04-11,Farense +2.5,2.2,Gagné
+2026-04-11,Bohemians 1905 +2.5,2.18,Gagné
+2026-04-11,Baník Ostrava +2.5,1.95,Gagné
+2026-04-11,Bastia +2.5,2.64,Gagné
 2026-04-11,Barcelona SC +2.5,1.8,Gagné
 2026-04-11,Aldovisi +2.5,2.2,Perdu
 2026-04-11,Pohang Steeler +1.5,1.42,Gagné
@@ -38,8 +89,8 @@ Date,Equipe,Cote,Resultat
 2026-04-06,Universidad de Chile +2.5,2.2,Perdu
 2026-04-06,Alianza Valledupar +1.5,1.46,Perdu
 2026-04-05,Torino -3.5,1.25,Gagné
-2026-04-05,Andorra -3.5,1.55,¨Perdu
-2026-04-05, Slavia Praha -3.5,1.53,Gagné
+2026-04-05,Andorra -3.5,1.55,Perdu
+2026-04-05,Slavia Praha -3.5,1.53,Gagné
 2026-04-05,Preußen Münster -3.5,1.34,Gagné
 2026-04-05,Melbourne Victory -3.5,1.35,Gagné
 2026-04-05,Houston Dynamo -3.5,1.3,Gagné
@@ -54,7 +105,7 @@ Date,Equipe,Cote,Resultat
 2026-04-05,Delfin +1.5,1.69,Perdu
 2026-04-05,Heart -3.5,1.25,Gagné
 2026-04-04,NEC -3.5,1.69,Gagné
-2026-04-04,Gaziantep  -3.5,1.4,Gagné
+2026-04-04,Gaziantep -3.5,1.4,Gagné
 2026-04-04,Dinamo Zagreb -3.5,1.51,Perdu
 2026-04-04,Real Sociedad -3.5,1.48,Gagné
 2026-04-04,Gamba Osaka -3.5,1.4,Gagné
@@ -67,12 +118,12 @@ Date,Equipe,Cote,Resultat
 2026-04-04,Burgos +2.5,2.58,Gagné
 2026-04-04,Werder Bremen +2.5,1.53,Gagné
 2026-04-04,Dukla Praha +2.5,2.16,Perdu
-2026-04-04, Dinamo Zagreb +2.5,1.64,Gagné
+2026-04-04,Dinamo Zagreb +2.5,1.64,Gagné
 2026-04-04,Slovan Liberec +2.5,1.83,Gagné
 2026-04-04,Sassuolo +2.5,2.24,Gagné
 2026-04-04,Farense +2.5,2.28,Perdu
 2026-04-04,Gangwon FC +2.5,2.48,Gagné
-2026-04-04, Ulsan Hyundai FC +2.5,1.98,Perdu
+2026-04-04,Ulsan Hyundai FC +2.5,1.98,Perdu
 2026-04-04,Barcelona SC +2.5,1.87,Perdu
 2026-04-04,Barcelona SC +1.5,1.3,Gagné
 2026-04-04,Guayaquil City FC +1.5,1.4,Gagné
@@ -86,10 +137,10 @@ Date,Equipe,Cote,Resultat
 2026-04-03,Bristol City,2.28,Gagné
 2026-04-03,Norwich +2.5,2.0,Perdu
 2026-04-03,Santa Clara +1.5,1.29,Gagné
-2026-04-03,Sligo rovers +1.5 ,1.33,Gagné
+2026-04-03,Sligo rovers +1.5,1.33,Gagné
 2026-04-03,Oliverense +1.5,1.32,Gagné
 2026-04-03,Atletico MG,1.35,Gagné
 2026-04-03,Tondela +1.5,1.42,Gagné
-2026-04-01,Huesca +2.5 ,2.2,Perdu
-2026-04-01,Huesca -3.5 ,1.4,Gagné
+2026-04-01,Huesca +2.5,2.2,Perdu
+2026-04-01,Huesca -3.5,1.4,Gagné
 2026-03-29,Andorra +2.5,2.2,Gagné

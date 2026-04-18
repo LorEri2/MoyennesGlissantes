@@ -1,20 +1,43 @@
 Date,Equipe,Type_Over,Cote,Resultat
-2026-04-12,Melbourne City,+1.5,1.2,En attente
-2026-04-11,Ajax,+2.5,1.54,En attente
-2026-04-11,Atalanta,+2.5,1.78,En attente
-2026-04-11,Kayserispor,+2.5,1.69,En attente
-2026-04-11,Utrecht,+2.5,1.58,En attente
-2026-04-11,Alanyaspor,+2.5,1.93,En attente
-2026-04-11,Brentford,+2.5,2.08,En attente
-2026-04-11,Brentford,+2.5,1.01,En attente
-2026-04-11,Borussia Mönchengladbach,+1.5,1.15,En attente
-2026-04-11,Dortmund,+2.5,1.56,En attente
-2026-04-11,Sydney,+1.5,1.2,En attente
-2026-04-11,Nantes,+1.5,1.45,En attente
-2026-04-11,Santa Clara,+1.5,1.45,En attente
-2026-04-11,AC Milan,+1.5,1.29,En attente
-2026-04-11,Grasshoppers,+1.5,1.25,En attente
-2026-04-11,Hertha,+1.5,1.16,En attente
+2026-04-18, Leeds,+2.5,1.92,En attente
+2026-04-18, Bayer Leverkusen,+2.5,1.41,En attente
+2026-04-18,Borussia Dortmund,+2.5,1.53,En attente
+2026-04-18,Werder Bremen,+2.5,1.79,En attente
+2026-04-18,Brentford,+2.5,1.79,En attente
+2026-04-18,Arminia Bielefeld,+2.5,1.76,En attente
+2026-04-18,Lille,+1.5,1.28,En attente
+2026-04-18,Angers,+1.5,1.49,En attente
+2026-04-18,Napoli,+1.5,1.44,En attente
+2026-04-18,Bristol City,+1.5,1.38,En attente
+2026-04-18,Udinese,+1.5,1.48,En attente
+2026-04-18,Sydney,+1.5,1.17,En attente
+2026-04-18,Brisbane Roar,+1.5,1.31,En attente
+2026-04-17,Blackburn ,+2.5,2.2,Perdu
+2026-04-17,Inter ,+2.5,1.64,Gagné
+2026-04-17,Antalyaspor ,+1.5,1.33,Gagné
+2026-04-17,Fenerbahce ,+2.5,1.53,Gagné
+2026-04-17,Elversberg ,+2.5,1.44,Gagné
+2026-04-17,Sassuolo ,+1.5,1.24,Gagné
+2026-04-17,Kiel ,+2.5,1.7,Gagné
+2026-04-14,Portsmouth,+2.5,2.0,Perdu
+2026-04-14,Southampton,+2.5,1.98,Gagné
+2026-04-13,Levante,+2.5,2.0,Perdu
+2026-04-13,Tondela,+1.5,1.47,Gagné
+2026-04-13,Eyupspor ,+1.5,1.35,Gagné
+2026-04-12,Melbourne City,+1.5,1.2,Gagné
+2026-04-11,Ajax,+2.5,1.54,Gagné
+2026-04-11,Atalanta,+2.5,1.78,Perdu
+2026-04-11,Kayserispor,+2.5,1.69,Gagné
+2026-04-11,Utrecht,+2.5,1.58,Gagné
+2026-04-11,Alanyaspor,+2.5,1.93,Perdu
+2026-04-11,Brentford,+2.5,2.08,Gagné
+2026-04-11,Borussia Mönchengladbach,+1.5,1.15,Perdu
+2026-04-11,Dortmund,+2.5,1.56,Perdu
+2026-04-11,Sydney,+1.5,1.2,Perdu
+2026-04-11,Santa Clara,+1.5,1.45,Gagné
+2026-04-11,AC Milan,+1.5,1.29,Gagné
+2026-04-11,Grasshoppers,+1.5,1.25,Gagné
+2026-04-11,Hertha,+1.5,1.16,Perdu
 2026-04-10,Brisbane Roar,+1.5,1.26,Gagné
 2026-04-10,Twente,+2.5,1.38,Gagné
 2026-04-10,Marseille,+1.5,1.14,Gagné
@@ -24,7 +47,7 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-04-06,Blackburn,+2.5,2.4,Perdu
 2026-04-06,Ipswich,+2.5,1.91,Gagné
 2026-04-06,Portsmouth,+2.5,2.3,Gagné
-2026-04-06, Lecce,+1.5,1.37,Gagné
+2026-04-06,Lecce,+1.5,1.37,Gagné
 2026-04-06,Grasshoppers,+1.5,1.26,Gagné
 2026-04-06,Napoli,+1.5,1.45,Perdu
 2026-04-05,Marseille,+1.5,1.19,Gagné
@@ -51,10 +74,6 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-04-04,Sassuolo,+1.5,1.4,Gagné
 2026-04-04,Kasimpasa,+1.5,1.29,Gagné
 2026-04-04,Melbourne City,+1.5,1.19,Perdu
-2026-04-03,Santa Clara,+1.5,1.29,Gagné
-2026-04-03,PSG,+1.5,1.16,Gagné
-2026-04-03,Norwich,+1.5,1.34,Gagné
-2026-04-03,Bristol City,+1.5,1.42,Gagné
 2026-04-03,Blackburn,+1.5,1.39,Perdu
 2026-04-02,Sydney,+1.5,1.26,Perdu
 2026-04-02,Macarthur,+1.5,1.12,Gagné
@@ -89,7 +108,7 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-03-15,Twente,+2.5,1.56,Perdu
 2026-03-15,Schalke,+1.5,1.26,Gagné
 2026-03-14,Ajax,+2.5,1.53,Gagné
-2026-03-14,Hertha ,+1.5,1.27,Gagné
+2026-03-14,Hertha,+1.5,1.27,Gagné
 2026-03-14,Angers,+1.5,1.44,Gagné
 2026-03-14,Valencia,+1.5,1.45,Perdu
 2026-03-14,Everton,+1.5,1.36,Gagné
@@ -99,12 +118,12 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-03-14,Brighton,+1.5,1.4,Perdu
 2026-03-14,Celtic,+1.5,1.22,Gagné
 2026-03-14,Bayer Leverkusen,+2.5,1.32,Perdu
-2026-03-14, Atalanta,+2.5,1.66,Perdu
+2026-03-14,Atalanta,+2.5,1.66,Perdu
 2026-03-14,Holstein Kiel,+1.5,1.26,Gagné
 2026-03-14,Paderborn,+2.5,1.76,Gagné
 2026-03-14,Monaco,+1.5,1.24,Gagné
 2026-03-14,Millwall,+1.5,1.42,Gagné
-2026-03-14,Aberdeen,+1.5,1.34,Gagné 
+2026-03-14,Aberdeen,+1.5,1.34,Gagné
 2026-03-14,Norwich,+2.5,1.82,Perdu
 2026-03-14,Club Brugge KV,+1.5,1.16,Gagné
 2026-03-14,Göztepe,+1.5,1.47,Gagné
@@ -119,11 +138,27 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-03-13,St Patrick's Athl,+1.5,1.43,Gagné
 2026-03-11,Blackburn,+2.5,2.52,Perdu
 2026-03-11,Norwich,+2.5,1.93,Gagné
-2026-03-09,Tondela ,+1.5,1.5,Perdu
+2026-03-11,Blackburn,+2.5,2.52,Perdu
+2026-03-11,Norwich,+2.5,1.93,Gagné
+2026-03-09,Tondela,+1.5,1.5,Perdu
+2026-03-09,Lazio,+1.5,1.43,Gagné
+2026-03-09,Alanyaspor,+2.5,2.0,Perdu
+2026-03-09,Tondela,+1.5,1.5,Perdu
 2026-03-09,Lazio,+1.5,1.43,Gagné
 2026-03-09,Alanyaspor,+2.5,2.0,Perdu
 2026-03-08,Santa Clara,+1.5,1.55,Gagné
-2026-03-08, AC Milan,+2.5,2.14,Perdu
+2026-03-08,AC Milan,+2.5,2.14,Perdu
+2026-03-08,AS Roma,+1.5,1.57,Gagné
+2026-03-08,Werder Bremen,+1.5,1.4,Gagné
+2026-03-08,Lille,+2.5,1.94,Perdu
+2026-03-08,Parma,+1.5,1.32,Perdu
+2026-03-08,Kasımpaşa,+2.5,2.2,Perdu
+2026-03-08,Hertha,+1.5,1.28,Gagné
+2026-03-08,Lecce,+1.5,1.5,Gagné
+2026-03-08,Lyon,+1.5,1.31,Gagné
+2026-03-08,Club Brugge,+1.5,1.18,Gagné
+2026-03-08,Santa Clara,+1.5,1.55,Gagné
+2026-03-08,AC Milan,+2.5,2.14,Perdu
 2026-03-08,AS Roma,+1.5,1.57,Gagné
 2026-03-08,Werder Bremen,+1.5,1.4,Gagné
 2026-03-08,Lille,+2.5,1.94,Perdu
@@ -146,6 +181,24 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-03-07,FC Sion,+1.5,1.19,Gagné
 2026-03-07,AEK Athens,+1.5,1.22,Perdu
 2026-03-07,Sydney,+1.5,1.21,Gagné
+2026-03-07,Motherwell,+1.5,1.32,Gagné
+2026-03-07,Toulouse,+1.5,1.27,Perdu
+2026-03-07,FC Lugano,+1.5,1.22,Gagné
+2026-03-07,Atalanta,+2.5,1.91,Gagné
+2026-03-07,Angers,+1.5,1.6,Perdu
+2026-03-07,Leverkusen,+2.5,1.92,Gagné
+2026-03-07,Cagliari,+2.5,2.08,Gagné
+2026-03-07,Goztepe,+1.5,1.37,Gagné
+2026-03-07,Portsmouth,+2.5,2.64,Perdu
+2026-03-07,Holstein Kiel,+1.5,1.23,Gagné
+2026-03-07,FC Sion,+1.5,1.19,Gagné
+2026-03-07,AEK Athens,+1.5,1.22,Perdu
+2026-03-07,Sydney,+1.5,1.21,Gagné
+2026-03-06,Preston,+2.5,2.3,Gagné
+2026-03-06,Celta Vigo,+2.5,1.87,Gagné
+2026-03-06,PSG,+1.5,1.2,Gagné
+2026-03-06,Borussia Mönchengladbach,+2.5,1.28,Gagné
+2026-03-06,Schalke,+1.5,1.01,Perdu
 2026-03-06,Preston,+2.5,2.3,Gagné
 2026-03-06,Celta Vigo,+2.5,1.87,Gagné
 2026-03-06,PSG,+1.5,1.2,Gagné
@@ -154,25 +207,27 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-03-04,Brighton,+2.5,1.99,Perdu
 2026-03-04,Leverkusen,+2.5,1.82,Perdu
 2026-03-04,Aston Villa,+1.5,1.25,Gagné
-2026-03-04,+1.5,1.35,0.0,
+2026-03-04,Brighton,+2.5,1.99,Perdu
+2026-03-04,Leverkusen,+2.5,1.82,Perdu
+2026-03-04,Unknown,+1.5,1.35,Gagné
 2026-03-01,Lyon,+1.5,1.25,Gagné
 2026-03-01,Girona,+2.5,2.06,Gagné
 2026-03-01,Lazio,+1.5,1.52,Gagné
 2026-03-01,Lille,+2.5,1.84,Perdu
 2026-03-01,Santa Clara,+1.5,1.55,Gagné
 2026-03-01,Brighton,+2.5,1.89,Gagné
-2026-03-01, AC Milan,+1.5,1.32,Gagné
+2026-03-01,AC Milan,+1.5,1.32,Gagné
 2026-03-01,Sydney,+1.5,1.19,Perdu
 2026-03-01,AS Roma,+1.5,1.46,Gagné
 2026-03-01,Sigma Olomouc,+1.5,1.44,Gagné
 2026-03-01,Club Brugge KV,+1.5,1.28,Gagné
 2026-03-01,Auxerre,+1.5,1.45,Gagné
-2026-03-01,AEK Athens ,+1.5,1.28,Gagné
+2026-03-01,AEK Athens,+1.5,1.28,Gagné
 2026-03-01,Union St. Gilloise,+1.5,1.25,Perdu
 2026-03-01,Hertha,+1.5,1.23,Gagné
 2026-03-01,Atalanta,+1.5,1.31,Gagné
 2026-02-28,PSG,+1.5,1.16,Perdu
-2026-02-28,Angers,+1.5,1.27,En Gagné
+2026-02-28,Angers,+1.5,1.27,Gagné
 2026-02-28,Alanyaspor,+1.5,1.18,Gagné
 2026-02-28,Göztepe,+1.5,1.39,Perdu
 2026-02-28,Toulouse,+1.5,1.25,Perdu
@@ -180,7 +235,7 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-02-28,Everton,+1.5,1.26,Gagné
 2026-02-28,Brentford,+2.5,1.91,Gagné
 2026-02-28,Borussia Mönchengladbach,+1.5,1.38,Perdu
-2026-02-28,Werder Bremen,+1.5,1.2,Gagén
+2026-02-28,Werder Bremen,+1.5,1.2,Gagné
 2026-02-28,Bayer Leverkusen,+2.5,1.7,Perdu
 2026-02-28,Lecce,+1.5,1.33,Gagné
 2026-02-28,BlackBurn,+2.5,2.42,Gagné
@@ -198,7 +253,7 @@ Date,Equipe,Type_Over,Cote,Resultat
 2026-02-27,Parme,+1.5,1.54,Gagné
 2026-02-25,Norwich,+2.5,1.5,Perdu
 2026-02-25,Stoke City,+1.5,1.47,Gagné
-2026-02-24,Wrexham ,+2.5,2.1,Gagné
+2026-02-24,Wrexham,+2.5,2.1,Gagné
 2026-02-24,Aberdeen,+2.5,1.9,Perdu
 2026-02-24,Preston,+2.5,2.4,Perdu
 2026-02-24,BlackBurn,+2.5,2.3,Gagné
